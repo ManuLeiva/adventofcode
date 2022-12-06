@@ -1,6 +1,6 @@
 #function to open
 def readdata():
-    f = open("day1data.txt", "r")
+    f = open("day1/day1data.txt", "r")
     return f.read().splitlines()
 
 #main funciton for the excersise
