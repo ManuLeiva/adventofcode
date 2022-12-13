@@ -17,19 +17,39 @@ def main():
         d = int(sepbydash2[1])
         print(a, c, b, d)
         if a == b and c == d: # a = c, b = d
-            print("hola")
+            print("1")
             count = count+1
         elif a > b and c < d: # a > c, b < d
+            print("2")
             count = count+1
         elif a > b and c == d: # a > c, b = d
+            print("3")
             count = count+1
         elif a < b and c > d: # a < c, b > d
+            print("4")
             count = count+1
         elif a < b and c == d: # a < c, b = d
+            print("5")
             count = count+1
         elif a == b and c > d: # a = c, b > d
+            print("6")
             count = count+1
         elif a == b and c < d: # a = c, b < d
+            print("7")
+            count = count+1
+        elif a == d and b < a:
+            print("8")
+            count = count+1
+        elif a < b and c == b:
+            print("9")
+            count = count+1
+        elif a<b and b<c:
+            print("10")
+            count = count+1
+        elif a > b and c > d and a >= d:
+            print("11")
+            count = count+1
+        elif a == c and b == d:
             count = count+1
         else:
             print(":(")
